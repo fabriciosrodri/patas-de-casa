@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Patas de Casa</title>
+  <meta name="description" content="Patas de Casa: adoção responsável de cães resgatados em Sorocaba e região.">
+  <!-- Fontes: Bricolage Grotesque (títulos) e Figtree (textos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ================= CABEÇALHO ================= -->
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Menu principal">
+    <a class="logo" href="#inicio" aria-label="Patas de Casa, página inicial">
+      <!-- Logotipo: uma casa com uma pegada dentro -->
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M6 22 24 7l18 15v18a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3Z" fill="var(--forest)"/>
+        <ellipse cx="24" cy="32" rx="6" ry="5" fill="var(--accent)"/>
+        <ellipse cx="16.5" cy="25" rx="2.4" ry="3" fill="var(--accent)"/>
+        <ellipse cx="21" cy="21" rx="2.4" ry="3" fill="var(--accent)"/>
+        <ellipse cx="27" cy="21" rx="2.4" ry="3" fill="var(--accent)"/>
+        <ellipse cx="31.5" cy="25" rx="2.4" ry="3" fill="var(--accent)"/>
+      </svg>
+      <span>Patas de Casa</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span></button>
+    <ul class="menu" id="menu">
+      <li><a href="#inicio" data-link="inicio">Início</a></li>
+      <li><a href="#caes" data-link="caes">Nossos cães</a></li>
+      <li><a href="#guia" data-link="guia">Adoção responsável</a></li>
+      <li><a href="#divulgue" data-link="divulgue">Divulgue um cão</a></li>
+      <li><a href="#sobre" data-link="sobre">Sobre e contato</a></li>
+      <li><a class="btn btn-primary" href="#caes">Quero adotar</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+<!-- ================= PÁGINA: INÍCIO ================= -->
+<section data-page="inicio">
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Adoção responsável · Sorocaba e região</p>
+        <h1>Todo cão merece voltar <em>pra casa.</em></h1>
+        <p class="lead">Resgatamos, cuidamos e encontramos famílias para cães que perderam o lar. Todos são vacinados, vermifugados e esperam por alguém como você.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#caes">Conheça nossos cães</a>
+          <a class="btn btn-ghost" href="#guia">Como adotar</a>
+        </div>
+        <div class="hero-note">
+          <div class="dots">
+            <img src="img/caramelo.jpg" alt="">
+            <img src="img/nina.jpg" alt="">
+            <img src="img/biscoito.jpg" alt="">
+          </div>
+          <span><strong data-total-caes>16</strong> cães esperando uma família agora</span>
+        </div>
+      </div>
+
+      <!-- Mosaico com cães brincando -->
+      <div class="hero-mosaic">
+        <figure><img src="img/hero-principal.jpg" alt="Dois cães golden brincando juntos na grama"></figure>
+        <figure><img src="img/hero-brincando.jpg" alt="Dois filhotes de beagle brincando num gramado"></figure>
+        <figure><img src="img/hero-frisbee.jpg" alt="Cão correndo com um frisbee na boca"></figure>
+        <div class="hero-badge">
+          <strong>128</strong>
+          <span>cães já ganharam<br>um lar com a gente</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Por que adotar -->
+  <div class="section" style="padding-top: 1rem;">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Por que adotar?</p>
+        <h2>Adotar muda duas vidas: a do cão e a sua.</h2>
+      </div>
+      <div class="reasons">
+        <article class="reason">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/></svg>
+          <h3>Você salva duas vidas</h3>
+          <p>Cada adoção abre uma vaga no abrigo para resgatarmos outro cão que está na rua.</p>
+        </article>
+        <article class="reason">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+          <h3>Cão avaliado e cuidado</h3>
+          <p>Todos passam por veterinário, recebem vacinas e vermífugo, e os adultos já vão castrados.</p>
+        </article>
+        <article class="reason">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m5.6 5.6 12.8 12.8"/></svg>
+          <h3>Contra o comércio de animais</h3>
+          <p>Adotar em vez de comprar diminui a procura por criadouros que exploram as mães.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contadores -->
+  <div class="stats-band">
+    <div class="wrap stats">
+      <div class="stat"><strong>128</strong><span>cães adotados</span></div>
+      <div class="stat"><strong data-total-caes>16</strong><span>esperando um lar</span></div>
+      <div class="stat"><strong>34</strong><span>lares temporários</span></div>
+      <div class="stat"><strong>6</strong><span>anos de resgates</span></div>
+    </div>
+  </div>
+
+  <!-- Destaques -->
+  <div class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Esperando há mais tempo</p>
+        <h2>Eles estão prontos para ir pra casa.</h2>
+      </div>
+      <div class="dog-grid" id="destaques"></div>
+      <p style="margin-top: 2rem;"><a class="btn btn-ghost" href="#caes">Ver todos os cães</a></p>
+    </div>
+  </div>
+
+  <!-- Depoimentos -->
+  <div class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Quem adotou</p>
+        <h2>Histórias que começaram aqui.</h2>
+      </div>
+      <div class="quotes">
+        <figure class="quote">
+          <blockquote>O Bidu chegou com medo de tudo. Hoje ele dorme no pé da cama e recebe meus filhos na porta da escola.</blockquote>
+          <footer><img src="img/adotado-1.jpg" alt=""><div><strong>Mariana Costa</strong>adotou o Bidu e a Pituca em 2024</div></footer>
+        </figure>
+        <figure class="quote">
+          <blockquote>Eu queria um filhote, mas me apaixonei por um idoso. Foi a melhor decisão que tomei. Ele é o cão mais grato do mundo.</blockquote>
+          <footer><img src="img/adotado-2.jpg" alt=""><div><strong>Roberto Almeida</strong>adotou o Duque em 2025</div></footer>
+        </figure>
+        <figure class="quote">
+          <blockquote>O processo foi simples e muito cuidadoso. A equipe tirou todas as dúvidas pelo WhatsApp e ainda acompanhou a adaptação.</blockquote>
+          <footer><img src="img/adotado-3.jpg" alt=""><div><strong>Juliana e Pedro</strong>adotaram a Kiara em 2025</div></footer>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-band">
+    <div class="wrap cta-inner">
+      <h2>O seu novo melhor amigo já está esperando.</h2>
+      <a class="btn btn-primary" href="#caes">Encontrar meu cão</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PÁGINA: NOSSOS CÃES ================= -->
+<section data-page="caes" hidden>
+  <div class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Nossos cães</p>
+        <h2>Encontre o cão que combina com a sua rotina.</h2>
+        <p class="lead">Use os filtros para ver por porte, idade ou sexo. Clique no cão para conhecer a história dele.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filtros">
+        <div class="filter-group">
+          <span>Porte</span>
+          <div class="seg" data-filtro="porte">
+            <button type="button" data-valor="Todos" aria-pressed="true">Todos</button>
+            <button type="button" data-valor="Pequeno" aria-pressed="false">Pequeno</button>
+            <button type="button" data-valor="Médio" aria-pressed="false">Médio</button>
+            <button type="button" data-valor="Grande" aria-pressed="false">Grande</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <span>Idade</span>
+          <div class="seg" data-filtro="idade">
+            <button type="button" data-valor="Todas" aria-pressed="true">Todas</button>
+            <button type="button" data-valor="Filhote" aria-pressed="false">Filhote</button>
+            <button type="button" data-valor="Adulto" aria-pressed="false">Adulto</button>
+            <button type="button" data-valor="Idoso" aria-pressed="false">Idoso</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <span>Sexo</span>
+          <div class="seg" data-filtro="sexo">
+            <button type="button" data-valor="Todos" aria-pressed="true">Todos</button>
+            <button type="button" data-valor="Macho" aria-pressed="false">Macho</button>
+            <button type="button" data-valor="Fêmea" aria-pressed="false">Fêmea</button>
+          </div>
+        </div>
+        <p class="result-count" id="contagem" aria-live="polite"></p>
+      </div>
+
+      <div class="dog-grid" id="galeria"></div>
+      <div class="empty" id="galeria-vazia" hidden>
+        <p>Nenhum cão com essa combinação de filtros no momento.</p>
+        <button class="btn btn-ghost" type="button" id="limpar-filtros">Limpar filtros</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PÁGINA: PERFIL DO CÃO ================= -->
+<section data-page="cao" hidden>
+  <div class="section">
+    <div class="wrap">
+      <a class="back" href="#caes">← Voltar para todos os cães</a>
+      <div class="profile" id="perfil"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PÁGINA: DIVULGUE UM CÃO ================= -->
+<section data-page="divulgue" hidden>
+  <div class="section">
+    <div class="wrap form-layout">
+      <div class="section-head">
+        <p class="eyebrow">Divulgue um cão</p>
+        <h2>Conhece um cão que precisa de um lar?</h2>
+        <p class="lead">Preencha os dados e a mensagem chega organizada no WhatsApp da nossa equipe. Depois é só enviar as fotos na mesma conversa.</p>
+        <div class="notice">
+          <p>Todo anúncio passa por análise antes de ser publicado. Assim evitamos anúncios falsos e venda de animais disfarçada de adoção. Seu telefone nunca aparece no site.</p>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <form id="form-divulgue" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="d-nome">Nome do cão <span class="req">*</span></label>
+              <input id="d-nome" name="nome" type="text" autocomplete="off" placeholder="Ex.: Paçoca">
+              <span class="error" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="d-idade">Idade aproximada <span class="req">*</span></label>
+              <input id="d-idade" name="idade" type="text" placeholder="Ex.: 2 anos ou 5 meses">
+              <span class="error" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="d-porte">Porte <span class="req">*</span></label>
+              <select id="d-porte" name="porte">
+                <option value="">Selecione</option>
+                <option>Pequeno (até 10 kg)</option>
+                <option>Médio (10 a 20 kg)</option>
+                <option>Grande (mais de 20 kg)</option>
+              </select>
+              <span class="error" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="d-sexo">Sexo <span class="req">*</span></label>
+              <select id="d-sexo" name="sexo">
+                <option value="">Selecione</option>
+                <option>Macho</option>
+                <option>Fêmea</option>
+              </select>
+              <span class="error" aria-live="polite"></span>
+            </div>
+            <div class="field full">
+              <label for="d-cidade">Cidade <span class="req">*</span></label>
+              <input id="d-cidade" name="cidade" type="text" placeholder="Ex.: Sorocaba, SP">
+              <span class="error" aria-live="polite"></span>
+            </div>
+            <div class="field full">
+              <label for="d-descricao">Sobre o cão <span class="req">*</span></label>
+              <textarea id="d-descricao" name="descricao" placeholder="Temperamento, saúde, se é castrado, como foi encontrado..."></textarea>
+              <span class="error" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="d-contato">Seu nome <span class="req">*</span></label>
+              <input id="d-contato" name="contato" type="text" autocomplete="name">
+              <span class="error" aria-live="polite"></span>
+            </div>
+            <div class="field">
+              <label for="d-telefone">Seu telefone com DDD <span class="req">*</span></label>
+              <input id="d-telefone" name="telefone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="14999998888">
+              <span class="error" aria-live="polite"></span>
+            </div>
+            <div class="field full">
+              <button class="btn btn-primary" type="submit">Revisar e enviar pelo WhatsApp</button>
+            </div>
+          </div>
+        </form>
+
+        <div class="success" id="divulgue-sucesso" hidden>
+          <h3 tabindex="-1">Tudo pronto! Falta só enviar.</h3>
+          <p>Toque no botão abaixo para abrir o WhatsApp com a mensagem já escrita. Nossa equipe vai analisar o anúncio antes de publicar.</p>
+          <pre class="msg-preview" id="msg-preview"></pre>
+          <div class="row-actions">
+            <a class="btn btn-whats" id="enviar-whats" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z"/></svg>
+              Enviar pelo WhatsApp
+            </a>
+            <button class="btn btn-ghost" type="button" id="copiar-msg">Copiar mensagem</button>
+            <button class="btn btn-ghost" type="button" id="novo-anuncio">Divulgar outro cão</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PÁGINA: ADOÇÃO RESPONSÁVEL ================= -->
+<section data-page="guia" hidden>
+  <div class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Adoção responsável</p>
+        <h2>Um cão vive de 10 a 15 anos. Vale se preparar.</h2>
+        <p class="lead">Adotar é um compromisso para a vida toda do animal. Este guia ajuda você a decidir com tranquilidade e a receber o novo amigo do jeito certo.</p>
+      </div>
+
+      <ol class="steps" aria-label="Etapas da adoção">
+        <li><h3>Escolha o cão</h3><p>Veja os perfis e pense no porte e na energia que combinam com sua casa e sua rotina.</p></li>
+        <li><h3>Fale com a equipe</h3><p>Clique em "Quero adotar" e converse com a gente pelo WhatsApp.</p></li>
+        <li><h3>Entrevista e visita</h3><p>Conhecemos você, sua casa e marcamos um encontro com o cão.</p></li>
+        <li><h3>Termo de adoção</h3><p>Você assina o termo de adoção responsável e leva seu amigo pra casa.</p></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top: 0;">
+    <div class="wrap guide-cols">
+      <article>
+        <h3>Suas responsabilidades</h3>
+        <ul>
+          <li>Alimentação de qualidade e água fresca todos os dias.</li>
+          <li>Vacinas anuais (V10 e antirrábica) e vermífugo em dia.</li>
+          <li>Passeios diários na guia e com coleira de identificação.</li>
+          <li>Nunca deixar o cão preso em corrente ou sozinho por muitos dias.</li>
+          <li>Não abandonar: se algo mudar, fale com a gente antes.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Preparando a casa</h3>
+        <ul>
+          <li>Verifique muros, portões e telas de janelas e sacadas.</li>
+          <li>Separe caminha, potes, guia, coleira e alguns brinquedos.</li>
+          <li>Guarde produtos de limpeza, remédios e fios fora do alcance.</li>
+          <li>Combine com a família quem cuida de cada tarefa.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Os primeiros dias</h3>
+        <ul>
+          <li>Dê tempo: a adaptação costuma levar de 2 a 4 semanas.</li>
+          <li>Mantenha horários fixos para comida, passeio e sono.</li>
+          <li>Apresente outros animais aos poucos e sempre supervisionando.</li>
+          <li>Recompense o comportamento certo, nunca use castigo físico.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Castração</h3>
+        <ul>
+          <li>Evita ninhadas indesejadas e fugas no cio.</li>
+          <li>Reduz o risco de câncer de mama e de infecções no útero.</li>
+          <li>Muitas prefeituras oferecem castração gratuita. Consulte a da sua cidade.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 style="font-size: var(--fs-lg);">Quanto custa ter um cão por mês</h2>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Gasto</th><th>Porte pequeno</th><th>Porte médio</th><th>Porte grande</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Ração de boa qualidade</td><td class="num">R$ 80 a 150</td><td class="num">R$ 150 a 250</td><td class="num">R$ 250 a 400</td></tr>
+            <tr><td>Antipulgas e vermífugo</td><td class="num">R$ 40 a 70</td><td class="num">R$ 50 a 90</td><td class="num">R$ 70 a 120</td></tr>
+            <tr><td>Vacinas anuais (valor por mês)</td><td class="num">R$ 15 a 25</td><td class="num">R$ 15 a 25</td><td class="num">R$ 15 a 25</td></tr>
+            <tr><td>Higiene e banho</td><td class="num">R$ 60 a 120</td><td class="num">R$ 80 a 150</td><td class="num">R$ 100 a 180</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small-print">Valores aproximados de referência para o interior de São Paulo. Reserve também uma quantia para consultas e emergências veterinárias.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PÁGINA: SOBRE E CONTATO ================= -->
+<section data-page="sobre" hidden>
+  <div class="section">
+    <div class="wrap about-grid">
+      <div class="section-head" style="margin-bottom: 0;">
+        <p class="eyebrow">Sobre o projeto</p>
+        <h2>Uma rede de voluntários que acredita em segundas chances.</h2>
+        <p class="lead">O Patas de Casa nasceu em 2020, quando um grupo de amigos começou a resgatar cães abandonados nas ruas de Sorocaba. Hoje somos voluntários, lares temporários e clínicas parceiras trabalhando juntos para que nenhum cão fique sem família.</p>
+        <p class="lead">Nossa missão é simples: resgatar, cuidar e encontrar um lar responsável para cada cão, com acompanhamento depois da adoção.</p>
+      </div>
+      <div class="about-photo"><img src="img/hero-agua.jpg" alt="Cão correndo feliz dentro de um lago raso"></div>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Como ajudar</p>
+        <h2>Não pode adotar agora? Dá para ajudar de outros jeitos.</h2>
+      </div>
+      <div class="help-grid">
+        <article class="help">
+          <h3>Lar temporário</h3>
+          <p>Receba um cão em casa por algumas semanas enquanto ele espera a adoção. Nós cuidamos da ração e do veterinário.</p>
+        </article>
+        <article class="help">
+          <h3>Voluntariado</h3>
+          <p>Ajude nas feiras de adoção, nos passeios do abrigo, nas fotos dos cães ou nas redes sociais.</p>
+        </article>
+        <article class="help">
+          <h3>Doações</h3>
+          <p>Ração, cobertores, remédios e qualquer valor ajudam a manter os resgates e as castrações.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top: 0;">
+    <div class="wrap">
+      <div class="contact-card">
+        <p class="eyebrow" style="color: var(--accent);">Contato</p>
+        <h2>Fale com a nossa equipe</h2>
+        <p>Todas as conversas sobre adoção, divulgação e ajuda passam pelo nosso WhatsApp.</p>
+        <p class="phone">(14) 99689-5439</p>
+        <div class="row-actions">
+          <a class="btn btn-whats" data-whats-geral href="https://wa.me/5514996895439" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z"/></svg>
+            Chamar no WhatsApp
+          </a>
+          <button class="btn btn-ghost" type="button" id="copiar-numero">Copiar número</button>
+        </div>
+        <p style="font-size: var(--fs-sm); opacity: 0.8;">Atendimento de segunda a sábado, das 9h às 18h.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= RODAPÉ ================= -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <p>© <span id="ano">2026</span> Patas de Casa · Projeto acadêmico de Web Design. Instituição e cães fictícios.</p>
+    <p>Fotos: acervo público do Dog API (dog.ceo), uso educacional.</p>
+  </div>
+</footer>
+
+<!-- Botão flutuante do WhatsApp -->
+<a class="whats-float" data-whats-geral href="https://wa.me/5514996895439" target="_blank" rel="noopener" aria-label="Falar com a equipe pelo WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.5 15l-1.4 5 5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.4-.2Z"/></svg>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
